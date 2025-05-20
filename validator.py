@@ -42,8 +42,7 @@ def create_password(start, end, capacity):
     except FileNotFoundError:
         return "File not found."
 
-# Input from user
+
 user_password = input("Password: ")
 
-# Execute
 print(create_password(0, 6, 5))
